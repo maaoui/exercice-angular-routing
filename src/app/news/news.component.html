@@ -1,0 +1,6 @@
+
+<ul *ngFor="let i of myNews2">
+  <app-news-child [n]='i.name' (emitter)='logme($event)' ></app-news-child>
+</ul>
+
+

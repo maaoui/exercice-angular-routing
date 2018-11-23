@@ -1,0 +1,10 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="['/']" routerLinkActive="router-link-active" >Home</a></li>
+    <li><a [routerLink]="['/news']" routerLinkActive="router-link-active" >News</a></li>
+    <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact</a></li>
+    <li><a [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a></li>
+    <input type="text" [(ngModel)] = "myInput" >
+    {{ myInput }}
+  </ul>
+</nav>
